@@ -1,0 +1,43 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:white;
+ }
+ .navbar{
+   z-index: 2;
+ position: fixed;
+width: 100%;
+margin-bottom: 0px;
+border:none !important;
+ }
+ .bg-sl{
+   background: rgb(71,78,93);
+background: linear-gradient(0deg, rgba(71,78,93,1) 0%, rgba(34,34,34,1) 100%);
+ }
+.bg-1 { 
+ background-color: #1abc9c;
+ color: #ffffff;
+}
+.bg-2 { 
+ background-color: #474e5d;
+ color: #ffffff;
+}
+.bg-3 { 
+ background-color: #ffffff;
+ color: #555555;
+}
+.hakkimda {
+ padding-top: 70px;
+ padding-bottom: 70px;
+}
+@media (max-width: 768px){
+    .navbar {
+        position: relative;
+        }
+        .footer {
+            position: relative;
+            }
+}
